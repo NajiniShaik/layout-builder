@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.navbar {
+  background-color: #475569;
+}
+
+.navbar-container {
+  max-width: 1100px;
+  width: 90%;
+  padding: 0px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .navbar-container {
+    width: 80%;
+    padding: 30px;
+  }
+}
+
+.navbar-title {
+  color: #f1f5f9;
+  font-size: 27px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .navbar-title {
+    font-size: 37px;
+  }
+}
+
+.label {
+  color: #f1f5f9;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .label {
+    font-size: 18px;
+  }
+}
+
+.checkbox {
+  margin-right: 15px;
+  height: 15px;
+  width: 15px;
+}
+
+@media (min-width: 768px) {
+  .checkbox {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.input-card {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}

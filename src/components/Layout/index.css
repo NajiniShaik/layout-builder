@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.layout-container {
+  max-width: 1100px;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .layout-container {
+    width: 80%;
+    padding: 40px;
+  }
+}

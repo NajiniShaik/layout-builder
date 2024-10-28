@@ -1,0 +1,18 @@
+.container {
+  background-color: #cbd5e1;
+  padding: 30px;
+  text-align: center;
+}
+
+.container-title {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .container-title {
+    font-size: 30px;
+  }
+}
